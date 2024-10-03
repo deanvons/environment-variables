@@ -6,7 +6,7 @@ env:
   ## Sets environment variable
   MEANING_OF_LIFE: 42
   SECRET: ${{secrets.SECRET}}
-  VARIABLE: ${{env.VARIABLE}}
+  VARIABLE: ${{ env.VARIABLE }}
 jobs:
   check:
     runs-on: ubuntu-latest
